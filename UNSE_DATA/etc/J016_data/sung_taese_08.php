@@ -1,0 +1,37 @@
+<HTML>
+<HEAD><title>용덕(龍德)</title>
+
+</HEAD>
+<link rel=StyleSheet href='/style.css' type='text/css'>
+<BODY BGCOLOR=ffffff leftmargin='0' topmargin='0' marginwidth='0' marginheight='0'>
+
+<br>
+
+	    <table width=450 border=0 cellspacing=1 cellpadding=5  align=center bgcolor=cccccc>
+	    	     <tr bgcolor=f8f8f8> <td align=center><font size=4><b>용덕(龍德)</b></font>
+		     </td></tr>
+           </table>
+
+	    
+	    <table width=450 border=0 cellspacing=1 cellpadding=5  align=center bgcolor=cccccc>
+	     <tr bgcolor=ffffff> <td>
+             <ul>
+             <li>용덕(龍德)은 과명이나 고시, 시험등을 주관한다.
+	     <li>복덕(福德)이나 박사(博士), 희신(喜神), 청룡(靑龍)등과 가회하면 승진이나 재물을 얻는 운이 있다.
+
+
+
+
+	     
+
+
+	     </td></tr>
+            </table>
+<br>
+	    <table width=450 align=center >
+	    	     <tr> <td align=center><input type=button value=창닫기 onclick=javascript:window.close(); onfocus=this.blur();>
+		     </td></tr>
+           </table>
+
+</BODY>
+</HTML>

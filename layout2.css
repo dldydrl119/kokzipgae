@@ -1,0 +1,163 @@
+td {font-size: 12px; font-family:돋움; color:#330000; line-height:140%;}
+
+A:link {	text-decoration:none;	color: #999999;}
+A:visited {	text-decoration:none; 	color:#999999;}
+A:hover {	text-decoration:underline;	color:#999999;}
+
+.tbox_gray {font-size:12px; font-family: 돋움 ; border:1px solid; color:#C2C2C2;}
+.tbox_green {font-size:12px; font-family: 돋움 ; border:1px solid; color:#B5B37C;}
+
+.copyright {color:#666666}
+.copyright_bold {color:#666666; font-weight:bold}
+
+.submenu {color:#666666}
+.submenu A:link {color:#666666}
+.submenu A:visited {color:#666666}
+.submenu A:hover {color:#838F00; text-decoration:none}
+
+.submenu_bold {color:#666666; font-weight:bold}
+.submenu_bold A:link {color:#666666; font-weight:bold}
+.submenu_bold A:visited {color:#666666; font-weight:bold}
+.submenu_bold A:hover {color:#838F00; text-decoration:none; font-weight:bold}
+
+.black {color:#000000}
+.black A:link {color:#000000}
+.black A:visited {color:#000000}
+.black A:hover {color:##000000}
+
+.black_bold{color:#000000; font-weight:bold}
+.black_bold A:link {color:#000000; font-weight:bold}
+.black_bold A:visited {color:#000000; font-weight:bold}
+.black_bold A:hover {color:#000000; font-weight:bold}
+
+.black_small {font-size: 11px; color:#000000}
+.black_small A:link {font-size: 11px; color:#000000}
+.black_small Al:visited {font-size: 11px; color:#000000}
+.black_small A:hover {font-size: 11px; color:#000000}
+
+.black_small_bold {font-size: 11px; color:#000000; font-weight:bold}
+.black_small_bold A:link {font-size: 11px; color:#000000; font-weight:bold}
+.black_small_bold A:visited {font-size: 11px; color:#000000; font-weight:bold}
+.black_small_bold A:hover {font-size: 11px; color:#000000; font-weight:bold}
+
+.gray1 {color:#373737}
+.gray1 A:link {color:#373737}
+.gray1 A:visited {color:#373737}
+.gray1 A:hover {color:#373737}
+
+.gray1_bold {color:#373737; font-weight:bold}
+.gray1_bold A:link {color:#373737; font-weight:bold}
+.gray1_bold A:visited {color:#373737; font-weight:bold}
+.gray1_bold A:hover {color:#373737; font-weight:bold}
+
+.gray2 {color:#727272}
+.gray2 A:link {color:#727272}
+.gray2 A:visited {color:#727272}
+.gray2 A:hover {color:#727272}
+
+.gray2_small {font-size: 11px; color:#727272}
+.gray2_small A:link {font-size: 11px; color:#727272}
+.gray2_small A:visited {font-size: 11px; color:#727272}
+.gray2_small A:hover {font-size: 11px; color:#678A00}
+
+.gray999999 {color:#999999}
+.gray999999 A:link {color:#999999}
+.gray999999 A:visited {color:#999999}
+.gray999999 A:hover {color:#999999}
+
+.gray999999_small {font-size: 11px; color:#999999}
+.gray999999_small A:link {font-size: 11px; color:#999999}
+.gray999999_small A:visited {font-size: 11px; color:#999999}
+.gray999999_small A:hover {font-size: 11px; color:#999999}
+
+.gray3_small {font-size: 11px; color:#acacac}
+.gray3_small A:link {font-size: 11px; color:#acacac}
+.gray3_small A:visited {font-size: 11px; color:#acacac}
+.gray3_small A:hover {font-size: 11px; color:#acacac}
+
+.lightblue {color:#405D8F}
+.lightblue A:link {color:#405D8F}
+.lightblue A:visited {color:#405D8F}
+.lightblue A:hover {color:#405D8F}
+
+.lightblue_bold {color:#405D8F; font-weight:bold}
+.lightblue_bold A:link {color:#405D8F; font-weight:bold}
+.lightblue_bold A:visited {color:#405D8F; font-weight:bold}
+.lightblue_bold A:hover {color:#405D8F; font-weight:bold}
+
+.lightblue_bold14 {font-size: 14px; color:#405D8F; font-weight:bold}
+.lightblue_bold14 A:link {font-size: 14px; color:#405D8F; font-weight:bold}
+.lightblue_bold14 A:visited {font-size: 14px; color:#405D8F; font-weight:bold}
+.lightblue_bold14 A:hover {font-size: 14px; color:#405D8F; font-weight:bold}
+
+.blue_bold {color:#00216A; font-weight:bold}
+.blue_bold A:link {color:#00216A; font-weight:bold}
+.blue_bold A:visited {color:#00216A; font-weight:bold}
+.blue_bold A:hover {color:#00216A; font-weight:bold}
+
+.p16 {font-size:16px;font-family:돋움}
+
+.orange {color:#FF6000}
+.orange A:link {color:#FF6000}
+.orange A:visited {color:#FF6000}
+.orange A:hover {color:#FF6000}
+
+.orange_bold {font-size: 11px; color:#FF6000; font-weight:bold}
+.orange_bold A:link {font-size: 11px; color:#FF6000; font-weight:bold}
+.orange_bold A:visited {font-size: 11px; color:#FF6000; font-weight:bold}
+.orange_bold A:hover {font-size: 11px; color:#FF6000; font-weight:bold}
+
+.orange2_bold {color:#FF6000; font-weight:bold}
+.orange2_bold A:link {color:#FF6000; font-weight:bold}
+.orange2_bold A:visited {color:#FF6000; font-weight:bold}
+.orange2_bold A:hover {color:#FF6000; font-weight:bold}
+
+.green {color:#678A00}
+.green A:link {color:#678A00}
+.green A:visited {color:#678A00}
+.green A:hover {color:#678A00}
+
+.green2 {color:#425200}
+.green2 A:link {color:#425200}
+.green2 A:visited {color:#425200}
+.green2 A:hover {color:#425200}
+
+.green3_small {font-size: 11px; color:#425200}
+.green3_small A:link {font-size: 11px; color:#425200}
+.green3_small A:visited {font-size: 11px; color:#425200}
+.green3_small A:hover {font-size: 11px; color:#425200}
+
+.green4 {color:#999933}
+.green4 A:link {color:#999933}
+.green4 A:visited {color:#999933}
+.green4 A:hover {color:#999933}
+
+.green5_small {font-size: 11px; color:#719702}
+.green5_small A:link {font-size: 11px; color:#719702}
+.green5_small A:visited {font-size: 11px; color:#719702}
+.green5_small A:hover {font-size: 11px; color:#719702}
+
+.green_bold {color:#678A00; font-weight:bold}
+.green_bold A:link {color:#678A00; font-weight:bold}
+.green_bold A:visited {color:#678A00; font-weight:bold}
+.green_bold A:hover{color:#678A00; font-weight:bold}
+
+.dot_gray {color:#b4b4b4}
+
+.brown {color:#715A2D}
+.brown A:link {color:#715A2D}
+.brown A:visited {color:#715A2D}
+.brown A:hover {color:#715A2D}
+
+.brown_bold {color:#AA2C00; font-weight:bold}
+.brown_bold A:link {color:#AA2C00; font-weight:bold}
+.brown_bold A:visited {color:#AA2C00; font-weight:bold}
+.brown_bold A:hover {color:#AA2C00; font-weight:bold}
+
+a.loveun:link    {color:#ffffff; font-size:9pt; font-family:굴림; text-decoration:none; font-weight:bold}
+a.loveun:visited {color:#ffffff; font-size:9pt; font-family:굴림; text-decoration:none; font-weight:bold}
+a.loveun:hover   {color:#ffffff; font-size:9pt; font-family:굴림; text-decoration:underline; font-weight:bold}
+
+a.loveun01:link    {color:#ffffff; font-size:9pt; font-family:굴림; text-decoration:none; font-weight:bold}
+a.loveun01:visited {color:#ffffff; font-size:9pt; font-family:굴림; text-decoration:none; font-weight:bold}
+a.loveun01:hover   {color:#ffffff; font-size:9pt; font-family:굴림; text-decoration:none; font-weight:bold}

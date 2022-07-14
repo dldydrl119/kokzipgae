@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내구독 - 배송지 변경</title>
+
+      
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+    <link rel="stylesheet" href="http://code.jquery.com//ui/1.12.1/themes/base/jquery-ui.css">
+    <script src='../js/jquery-3.3.1.js'></script>
+    <script src='../js/slick.min.js'></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/import.js"></script>
+</head>
+<body>
+    <div id="header-wrap">            
+        <!--/header.html-->
+    </div>
+    <div class="sub-page2 sub04-04 sub04" id="section">
+        <div class="container">
+            <div class="popup zipcode-pop">
+                <h3>우편번호 검색</h3>
+                <form class="zipcode-form" name="zipcode-form" method="post" action="" target="">
+                    <div class="input-box">
+                        <input type="text" id="zipcode-search">
+                        <a href="javascript:void(0)" class="input-delte-btn"><img src="../img/close-btn.png" alt="삭제"></a>
+                    </div>                    
+                    <a href="javascript:void(0)"><img src="../img/zipcode-search-btn-white.png" alt="검색"></a>
+                </form>
+                <div class="tip-box">
+                    <h5>우편번호 통합검색 Tip</h5>
+                    <p>*도로명 + 건물번호<span>(예:송파대로 570)</span></p>
+                    <p>*동/읍/면/리 + 번지<span>(예: 신천동 7-30)</span></p>
+                    <p>*건물명, 아파트명 <span>(예: 반포자이아파트)</span></p>      
+                </div>
+                <a href="javascript:void(0)">취소</a>
+            </div>
+            <div class="sub-visual">
+                <h3 class="back mob"><a href="javascript:history.back()"><img src="../img/m-back.png" alt="뒤로가기"><span>내구독</span></a></h3>                          
+                <div class="box">
+                    <h2 class="sub-vis-tit">내구독</h2>
+                    <!-- <p class="sub-vis-con">아직 내가 구독한 구구가 없습니다!</p> -->
+                </div>                
+            </div><!-- sub-visual -->
+
+            <div class="sub04-04-content-wrap">
+                <form class="delivery-form" name="delivery-form" method="post" action="" target="">
+                <ul>
+                    <li>
+                        <div class="icon-box"><img src="../img/icon-topeople.png" alt="받는사람"></div>
+                        <div class="input-box">
+                            <input type="text" name="topeople" id="topeople" placeholder="받는사람">
+                        </div>
+                    </li>
+                    <li class="zipcode-line">
+                        <div class="icon-box"><img src="../img/icon-zipcode.png" alt="우편번호"></div>
+                        <div class="input-box-wrap">
+                            <div class="input-box">
+                                <input type="text" name="zipcode" id="zipcode" placeholder="우편번호 찾기">
+                                <a href="javascript:void(0)" class="zip-search-btn"><img src="../img/icon-zipcodesearch.png" alt=""></a>
+                            </div>
+                            <div class="input-box zipcode2-box">
+                                <input type="text" name="zipcode2" id="zipcode2">                                
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="icon-box"><img src="../img/icon-phone.png" alt="휴대전화"></div>
+                        <div class="input-box">
+                            <input type="text" name="del-phone" id="del-phone" placeholder="휴대폰 번호">
+                            <a href="javascript:void(0)" class="plus">+</a>
+                        </div>
+                    </li>
+                    <li class="hide">
+                        <div class="icon-box"><img src="../img/icon-phone.png" alt="휴대전화"></div>
+                        <div class="input-box">
+                            <input type="text" name="del-phone" id="del-phone" placeholder="휴대폰 번호">
+                            <a href="javascript:void(0)" class="min">-</a>
+                        </div>
+                    </li>
+                    <li class="hide">
+                        <div class="icon-box"><img src="../img/icon-phone.png" alt="휴대전화"></div>
+                        <div class="input-box">
+                            <input type="text" name="del-phone" id="del-phone" placeholder="휴대폰 번호">
+                            <a href="javascript:void(0)" class="min">-</a>
+                        </div>
+                    </li>
+                    <li class="hide">
+                        <div class="icon-box"><img src="../img/icon-phone.png" alt="휴대전화"></div>
+                        <div class="input-box">
+                            <input type="text" name="del-phone" id="del-phone" placeholder="휴대폰 번호">
+                            <a href="javascript:void(0)" class="min">-</a>
+                        </div>
+                    </li>
+                </ul>
+                <label for="delivery01"><input type="checkbox" name="delivery" id="delivery01"><span>기본배송지로 저장</span></label>
+                <div class="btn-box">
+                    <a href="javascript:void(0);" class="btn01">저장</a>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer-wrap">            
+        <!--/header.html-->
+    </div>
+
+
+</body>
+</html>

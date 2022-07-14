@@ -1,0 +1,34 @@
+<HTML>
+<HEAD><title>장군(將軍)</title>
+
+</HEAD>
+<link rel=StyleSheet href='/style.css' type='text/css'>
+<BODY BGCOLOR=ffffff leftmargin='0' topmargin='0' marginwidth='0' marginheight='0'>
+
+<br>
+
+	    <table width=450 border=0 cellspacing=1 cellpadding=5  align=center bgcolor=cccccc>
+	    	     <tr bgcolor=f8f8f8> <td align=center><font size=4><b>장군(將軍)</b></font>
+		     </td></tr>
+           </table>
+
+	    
+	    <table width=450 border=0 cellspacing=1 cellpadding=5  align=center bgcolor=cccccc>
+	     <tr bgcolor=ffffff> <td>
+             <ul>
+             <li>장군(將軍)은 오행이 목(木)이며 위세나 위풍을 주관한다.
+	     <li>명(命)궁에 거하면 성격이 거칠고 급하다.
+	     <li>동궁하는 정성이 묘왕하고 화과(化科)나 화권(化權)이 보이면 대체로 더욱 위엄과 격을 갖추게 된다.
+	     
+
+
+	     </td></tr>
+            </table>
+<br>
+	    <table width=450 align=center >
+	    	     <tr> <td align=center><input type=button value=창닫기 onclick=javascript:window.close(); onfocus=this.blur();>
+		     </td></tr>
+           </table>
+
+</BODY>
+</HTML>

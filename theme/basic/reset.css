@@ -1,0 +1,251 @@
+@charset "utf-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+  font-family: "NanumGothic";
+  src: url("/css/font/NanumGothic.ttf");
+}
+@font-face {
+  font-family: "NanumGothicBold";
+  src: url("/css/font/NanumGothicBold.ttf");
+}
+@font-face {
+  font-family: "NanumGothicExtraBold";
+  src: url("/css/font/NanumGothicExtraBold.ttf");
+}
+@font-face {
+  font-family: "NanumSquareB";
+  src: url("/css/font/NanumSquareB.ttf");
+}
+@font-face {
+  font-family: "NanumSquareEB";
+  src: url("/css/font/NanumSquareEB.ttf");
+}
+@font-face {
+  font-family: "NanumSquareB";
+  src: url("/css/font/NanumSquareB.ttf");
+}
+@font-face {
+  font-family: "NanumSquareL";
+  src: url("/css/font/NanumSquareL.ttf");
+}
+@font-face {
+  font-family: "NanumSquareR";
+  src: url("/css/font/NanumSquareR.ttf");
+}
+
+input[type="password"] {
+  font-family: "GmarketSans" !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'nanumsquareL';
+}
+
+@font-face {
+  font-family: "GmarketSansLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "nanumsquare", sans-serif;
+  font-size: 1.4rem;
+  color: #010101;
+  font-weight: normal;
+  letter-spacing: -0.05em;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #2c2c2c;
+  text-decoration: none;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+}
+caption {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 1.2rem;
+}
+
+img,
+video,
+audio,
+object,
+embed,
+iframe {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+button {
+  font-family: "GmarketSansMedium", sans-serif;
+}
+
+/* Help Class Setting */
+/* ir(image replace) - 이미지 대체(치환)기법 */
+.ir {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: no-repeat 0 0;
+}
+.ir_w {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: no-repeat 0 0;
+}
+.ir_m {
+  display: none !important;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: no-repeat 0 0;
+}
+
+/* 플롯해제 클래스 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* 화면 감추기 클래스 */
+.screen-hidden {
+  display: block !important;
+  width: 0px !important;
+  height: 0px !important;
+  font-size: 0px !important;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0 !important;
+}
+
+/* Container Setting */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.container_fluid {
+  width: 100%;
+  height: 100%;
+}
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.container2 {
+  max-width: 610px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container25 {
+  max-width: 610px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+::selection {
+  background-color: #035aa6;
+  color: #fff;
+}
+
+:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+@media (max-width: 501px) {
+  .ir_m {
+    display: inline-block !important;
+  }
+  .ir_w {
+    display: none !important;
+  }
+}

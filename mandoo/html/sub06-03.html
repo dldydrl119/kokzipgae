@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이디/비밀번호 찾기</title>
+
+      
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+
+    <script src='../js/jquery-3.3.1.js'></script>
+    <script src='../js/slick.min.js'></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/import.js"></script>
+</head>
+<body>
+  <div id="header-wrap">            
+    <!--/header.html-->
+</div>
+    <div class="sub-page2 sub06-03" id="section">
+        <div class="container">
+
+            <div class="sub-visual">
+              <h3 class="back mob"><a href="javascript:history.back()"><img src="../img/m-back.png" alt="뒤로가기"><span>아이디 / 비밀번호 찾기</span></a></h3>                          
+                <div class="box">
+                    <h2 class="sub-vis-tit">아이디 / 비밀번호 찾기</h2>
+                    <!-- <p class="sub-vis-con">아직 내가 구독한 구구가 없습니다!</p> -->
+                </div>                
+            </div><!-- sub-visual -->
+
+            <div class="sub06-03-content-wrap">
+
+                <ul class="login-tab cf">
+                    <li class="on">아이디(이메일)찾기</li>
+                    <li>비밀번호 찾기</li>
+                </ul>               
+
+                <div class="find-info box01">
+                    <form class="id-find" name="id-find-form" method="post" action="" target="">
+                      <dl>
+                        <dt>휴대폰 인증</dt>
+                        <dd>
+                          <div>      
+                            <select name="news-agency1" id="news-agency1">
+                              <option value="skt">SKT</option>
+                              <option value="kt">KT</option>
+                              <option value="lg">LGU+</option>
+                            </select>
+                            <input type="number" name="phone" id="phone2">
+                          </div>
+                          <button type="submit">인증번호 전송</button>
+                        </dd>
+                      </dl>
+                    </form>
+                </div>
+
+                <div class="find-info box02">
+                    <form class="pw-find" name="pw-find-form" method="post" action="" target="">
+                        <dl class="mb">
+                          <dt>아이디<span class="sub">(이메일)</span></dt>
+                          <dd><input type="text" name="id-txt" id="id-txt"></dd>
+                        </dl>
+                        <dl>
+                          <dt>휴대폰 인증</dt>
+                          <dd>
+                            <div>
+                              <select name="news-agency2" id="news-agency2">
+                                <option value="skt">SKT</option>
+                                <option value="kt">KT</option>
+                                <option value="lg">LGU+</option>
+                              </select>
+                              <input type="number" name="phone" id="phone3">
+                            </div>                            
+                            <button type="submit">인증번호 전송</button>
+                          </dd>
+                        </dl>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="footer-wrap">            
+      <!--/header.html-->
+  </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내구독 - 리뷰쓰기</title>
+
+      
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+
+    <script src='../js/jquery-3.3.1.js'></script>
+    <script src='../js/slick.min.js'></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/import.js"></script>
+</head>
+<body>
+    <div id="header-wrap">            
+        <!--/header.html-->
+    </div>
+    <div class="sub-page2 sub04 sub04-02" id="section">
+        <div class="container">
+            <div class="sub-visual">
+                <h3 class="back mob"><a href="javascript:history.back()"><img src="../img/m-back.png" alt="뒤로가기"><span>내구독</span></a></h3>                          
+                <div class="box">
+                    <h2 class="sub-vis-tit">리뷰쓰기</h2>
+                    <!-- <p class="sub-vis-con">아직 내가 구독한 구구가 없습니다!</p> -->
+                </div>                
+            </div><!-- sub-visual -->
+
+            <div class="sub04-02-content-wrap">
+                <div class="sub04-02-content01">
+                    <h5>구구팬티</h5>
+                    <div class="star-box">
+                        <img src="../img/m-review-star.png" alt="">
+                        <img src="../img/m-review-star.png" alt="">
+                        <img src="../img/m-review-star.png" alt="">
+                        <img src="../img/m-review-star.png" alt="">
+                        <img src="../img/m-review-star.png" alt="">
+                    </div>
+                </div>
+                <div class="sub04-02-content02">
+                    <div class="content-box">
+                        <form class="review-form" name="review-form" method="post" action="" target=""  enctype="multipart/form-data">  
+                        <textarea name="review-con" id="review-con" cols="30" rows="10" placeholder="‘강아지도 다이어트가 필요해’ 상품은 어떠셨나요?"></textarea>
+                        <div class="content-bottom">
+                            <!-- 사진 업로드 되는 부분 -->
+                            <div class="review-picture-box">
+                                <span><i>-</i></span>
+                                <span><i>-</i></span>
+                                <span><i>-</i></span>
+                                <span><i>-</i></span>
+                                <span><i>-</i></span>
+                            </div>
+                            <label for="secret-review">
+                                <input type="checkbox" name="secret-review" id="secret-review">
+                                <span>비밀리뷰</span>
+                            </label>
+                            <label for="upload-pic">
+                                <input multiple="multiple"  type="file" name="filename[]" id="upload-pic">
+                                <span class="camera">
+                                    <img src="../img/camera.png" alt="">                                
+                                    <span><strong>사진</strong><i>0/5</i></span>
+                                </span>
+                            </label>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <a href="javascript:history.back()" class="btn02">뒤로가기</a>
+                    <a href="javascript:void(0)" class="btn03">리뷰 작성하기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-wrap">            
+        <!--/header.html-->
+    </div>
+
+
+</body>
+</html>

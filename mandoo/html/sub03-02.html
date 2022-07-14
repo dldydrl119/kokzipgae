@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>결제정보선택</title>
+
+      <link rel="stylesheet" href="../css/reset.css">
+      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="../css/resposive.css">
+
+      <script src='../js/jquery-3.3.1.js'></script>
+      <script src='../js/slick.min.js'></script>
+      <script src="../js/script.js"></script>
+      <script src="../js/import.js"></script>
+  </head>
+  <body>
+    <div id="header-wrap">            
+      <!--/header.html-->
+  </div>
+    <!-- Sub03-02 Area Start -->
+    <div class="sub-page sub03-02" id="section">
+      <div class="container">
+        <div class="popup zipcode-pop">
+          <h3>우편번호 검색</h3>
+          <form class="zipcode-form" name="zipcode-form" method="post" action="" target="">
+              <div class="input-box">
+                  <input type="text" id="zipcode-search">
+                  <a href="javascript:void(0)" class="input-delte-btn"><img src="../img/close-btn.png" alt="삭제"></a>
+              </div>                    
+              <a href="javascript:void(0)"><img src="../img/zipcode-search-btn-white.png" alt="검색"></a>
+          </form>
+          <div class="tip-box">
+              <h5>우편번호 통합검색 Tip</h5>
+              <p>*도로명 + 건물번호<span>(예:송파대로 570)</span></p>
+              <p>*동/읍/면/리 + 번지<span>(예: 신천동 7-30)</span></p>
+              <p>*건물명, 아파트명 <span>(예: 반포자이아파트)</span></p>      
+          </div>
+          <a href="javascript:void(0)">취소</a>
+      </div>
+        <!-- Sub_title Area Start -->
+        <div class="sub_title">
+          <h2>
+            <img src="../img/sub03-02-title.png" alt="title">
+          </h2>
+        </div><!-- Sub_title Area End -->
+
+        <!-- Section1 Area Start -->
+        <div class="section1 sec">
+          <!-- Txt Area Start -->
+          <div class="txt">
+            <h3>주문내역을 확인해 주세요.</h3>
+            <div class="img-box"><img src="../img/sub03-02-img.png" alt="img"></div>
+          </div>
+          <!-- Box Area Start -->
+          <div class="box">
+            <dl class="product">
+              <dt>상품</dt>
+              <dd>구구책 구독</dd>
+            </dl>
+            <dl class="price">
+              <dt>금액</dt>
+              <dd><span>19,000</span>원</dd>
+            </dl>
+            <dl class="date">
+              <dt>결제일</dt>
+              <dd>매월 13일</dd>
+            </dl>
+          </div>
+        </div><!-- Section1 Area End -->
+
+        <!-- Section2 Area Start -->
+        <div class="section2 sec">
+
+          <!-- Txt Area Start -->
+           <div class="txt">
+             <h3>배송정보를 입력해 주세요.</h3>
+           </div>
+
+          <!-- Pay_info Area Start --> 
+          <form class="pay_info" name="info_form" method="post" action="">
+            <div class="list_box">
+              <dl>
+                <dt>수령인</dt>
+                <dd><input type="text" name="recipient" id="recipient"></dd>
+              </dl>
+              <dl>
+                <dt>전화번호</dt>
+                <dd><input type="text" name="tell" id="tell"></dd>
+              </dl>
+              <dl>
+                <dt>주소</dt>
+                <dd>
+                  <div class="button-line">
+                    <input type="text" name="zipcode" id="zipcode"><a href="javascript:void(0)" class="sub03-02-btn zip-search-btn">주소찾기</a>
+                  </div>
+                  <div class="post_addr2">
+                    <input type="text" name="addr1" id="addr1" placeholder="기본주소">
+                  </div>
+                </dd>
+              </dl>
+              <dl>
+                <dt>상세주소</dt>
+                <dd><input type="text" name="addr2" id="addr2" placeholder="상세주소"></dd>
+              </dl>
+              <dl>
+                <dt>배송 메모 <span>(선택)</span></dt>
+                <dd><input type="text" name="meno" id="meno"></dd>
+              </dl>
+            </div>
+          </form>
+
+        </div><!-- Section2 Area End -->
+        <div class="section3 sec">
+          <div class="txt">
+            <h3>쿠폰 및 포인트 사용</h3>
+          </div>
+          <form class="pay_info" name="info_form" method="post" action="">
+            <div class="list_box">
+              
+              <dl>
+                <dt>쿠폰</dt>
+                <dd>
+                  <div class="button-line">
+                    <input type="text" name="point" id="my-point"><a href="javascript:void(0)" class="sub03-02-btn">쿠폰사용</a>
+                  </div>                
+                </dd>
+              </dl>
+              <dl>
+                <dt>포인트</dt>
+                <dd>
+                  <div class="point">
+                    <span class="subject">보유포인트</span>
+                    <span class="con">49,000P</span>
+                  </div>
+                  <div class="point">
+                    <span class="subject">사용포인트:</span>
+                    <input type="text" name="point" id="use-point"><a href="javascript:void(0)" class="sub03-02-btn">전액사용</a>
+                  </div>
+                          
+                </dd>
+              </dl>
+            </div>
+          </form>
+        </div>
+
+        <!-- Section3 Area Start -->
+        <div class="section4 sec">
+
+          <!-- Txt Area Start -->
+          <div class="txt">
+            <div class="img-box"><img src="../img/sub03-02-img2.png" alt="img2"></div>
+            <h3>결제 수단을 선택해주세요.</h3>
+          </div>
+
+          <!-- Product_pay Area Start -->
+          <form class="product_pay" name="product_pay" method="post" action="">
+            <ul>
+              <li>
+                <label for="kakao_pay">
+                  <input type="radio" name="pay" id="kakao_pay">
+                  <span>카카오페이</span>
+                </label>
+              </li>
+              <li>
+                <label for="naver_pay">
+                  <input type="radio" name="pay" id="naver_pay">
+                  <span>네이버페이</span>
+                </label>
+              </li>
+              <li>
+                <label for="card_pay">
+                  <input type="radio" name="pay" id="card_pay">
+                  <span>신용/체크카드</span>
+                </label>
+              </li>
+              <li>
+                <a href="javascript:void(0)">다음</a>
+              </li>
+            </ul>
+          </form>
+
+        </div><!-- Section3 Area End -->
+              
+      </div>
+    </div><!-- Sub03-02 Area End -->
+    <div id="footer-wrap">            
+      <!--/header.html-->
+  </div>
+  </body>
+</html>

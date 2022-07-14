@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>상품상세화면</title>
+
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/resposive.css">
+
+        <script src='../js/jquery-3.3.1.js'></script>
+        <script src='../js/slick.min.js'></script>
+        <script src="../js/script.js"></script>
+        <script src="../js/import.js"></script>
+    </head>
+    <body>
+        <div id="header-wrap">            
+            <!--/header.html-->
+        </div>
+        <div class="sub-page sub02-01" id="section">
+
+            <div class="goods-content">
+                <div class="container">
+                    <div class="share-box">
+                        <h5>공유하기</h5>
+                        <div class="sns-box">
+                            <ul>
+                                <li>
+                                    <img src="../img/share-sns01.png" alt="카카오톡">
+                                    <span>카카오톡</span>
+                                </li>
+                                <li>
+                                    <img src="../img/share-sns02.png" alt="라인">
+                                    <span>라인</span>
+                                </li>
+                                <li>
+                                    <img src="../img/share-sns03.png" alt="페이스북">
+                                    <span>페이스북</span>
+                                </li>
+                                <li>
+                                    <img src="../img/share-sns04.png" alt="밴드">
+                                    <span>밴드</span>
+                                </li>
+                                <li>
+                                    <img src="../img/share-sns05.png" alt="SMS">
+                                    <span>SMS</span>
+                                </li>                                
+                            </ul>
+                        </div>
+                        <div class="share-input-box">
+                            <input type="text">
+                            <a href="javascript:void(0)">url 복사</a>
+                        </div>
+                        <a href="javascript:void(0)">취소</a>
+                    </div>
+                    <div class="icon-box">
+                        <span class="back mob"><img src="../img/m-back.png" alt="뒤로가기"></span>
+                        <div class="box">
+                            <div class="share"><img src="../img/m-icon_share.png" alt="공유하기"></div>
+                            <div class="wish"><img src="../img/m-icon_wish_dim.png" alt="찜하기"><img src="../img/m-icon_wish.png" alt="찜하기" class="on"></div>
+                        </div>
+                    </div>
+                    <div class="goods-video">
+                        <img src="../img/goods_thumb.png" alt="" class="goods-thumb">
+                        <img src="../img/goods_thumb_playbtn.png" alt="play" class="play-btn">
+                    </div>
+                    <!-- goods-video -->
+                    <div class="goods-info-wrap">
+                        <div class="goods-info-box">
+                            <p class="sub-title">
+                                <span class="goods-cate">[팬티]</span>
+                                나도 명품 팬티 입는다</p>
+                            <h2 class="goods-title">구구팬티 구독</h2>
+                            <p class="price-box01 price-box">
+                                <span class="sort">구독가격</span><span class="price">19,900원</span></p>
+                            <p class="price-box02 price-box">
+                                <span class="sort">월) 구독가격</span><span class="price">9,950원</span></p>
+                            <p class="info01">구구 정기구독은 해지가 자유롭습니다</p>
+                            <a href="javacript:void(0)" class="aver-star">
+                                <img src="../img/m-star.png" alt="별점">
+                                <span class="average">4.9</span>
+                                <span class="re-count">(10)</span>
+                            </a>
+                        </div>
+                        <!-- goods-info-box -->
+                        <div class="option-box">
+                            <form
+                                class="goods-option-form"
+                                name="goods-option-form"
+                                method="post"
+                                action=""
+                                target="">
+                                <ul>
+                                    <li class="amount">
+                                        <span class="option-name">수량</span>
+                                        <span class="option-con">
+                                            <span class="calculator">
+                                                <a href="javascript:void(0)" class="calc-min">-</a>
+                                                <input type="number" class="sale-cnt" value="1">
+                                                <a href="javascript:void(0)" class="calc-plus">+</a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="option-name">옵션</span>
+                                        <span class="option-con">
+                                            <select name="select-box" class="select01">
+                                                <option value="">사이즈</option>
+                                                <option value="XL 사이즈 1개월">XL 사이즈 1개월</option>
+                                                <option value="L 사이즈 1개월">L 사이즈 1개월</option>
+                                                <option value="M 사이즈 1개월">M 사이즈 1개월</option>
+                                                <option value="S 사이즈 1개월">S 사이즈 1개월</option>
+                                            </select>
+                                        </span>
+                                        <span class="option-con">
+                                            <select name="select-box" class="select02">
+                                                <option value="">주기</option>
+                                                <option value="1달">1달</option>
+                                                <option value="2달">2달</option>
+                                                <option value="3달">3달</option>
+                                                <option value="4달">4달</option>
+                                            </select>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                        <!-- option-box -->
+                        <a href="javascript:void(0)" class="subscr">구독하기</a>
+                    </div>
+                </div>
+                <!-- goods-info-wrap-->
+                <div class="detail-info-box cf">
+                    <div class="detail-tab-box">
+                        <div class="container">
+                            <ul class="detail-tab cf">
+                                <li class="on">
+                                    <a href="javascript:void(0)">상품</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">리뷰</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">상품문의</a>
+                                </li>
+                            </ul>
+                            <div class="detail-banner">
+                                <img src="../img/goods-pagebanner.png" alt="배너" class="pc">
+                                <img src="../img/m-detailbanner.png" alt="배너" class="mob">
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="goods-detail-info goods-sec">
+                        <div class="container">
+                            <img src="../img/detail-content-all.png" alt="" class="pc">
+                            <img src="../img/m-detailcontent.png" alt="" class="mob">
+
+                            <!-- <div class="detail-md">
+                                <img src="../img/detail-md.png" alt="md">
+                            </div>
+                            <div class="detail-main">
+                                <img src="../img/detail-content.png" alt="detail-content">
+                            </div>
+                            <div class="caution">
+                                <p>유의사항</p>
+                                <div class="con">
+                                    해당 정기 구독은 매월 1회 자동 결제되는 상품입니다.
+                                    <br>
+                                    구독 신청 시 매달 정기배송 되며 결제일과 발송일은 상이할 수 있습니다.
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="goods-review goods-sec">
+                        <div class="container">                          
+                            <div class="review-box">
+                                <div class="review-box-top">
+                                    <h4>구구 책구독</h4>
+                                    <span><img src="../img/icon_star03.png" alt="star">
+                                        <i>5.0</i>
+                                    </span>
+                                </div>
+                                <ul>
+                                    <li class="content">
+                                        <div class="con-top">
+                                            <a href="javacript:void(0)" class="img-box">
+                                                <img src="../img/m-profile-no-img.png" alt="thumb">
+                                            </a>
+                                            <div class="text-box">
+                                                <a href="javascript:void(0)" class="nickname">굿팀장</a>
+                                                <div>
+                                                    <span class="date">2020.12.30</span>
+                                                    <span class="star">
+                                                        <img src="../img/icon_star03.png" alt="">
+                                                        <span class="aver">5.0</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- con-top -->
+                                        <div class="con-bottom">
+                                            <p>매월 구구박스가 오는 날을 기다리고 있습니다.
+                                                <br>정말 좋은 서비스 같아요!</p>
+
+                                        </div>
+                                    </li>
+                                    <li class="content">
+                                        <div class="con-top">
+                                            <a href="javacript:void(0)" class="img-box">
+                                                <img src="../img/m-profile-no-img.png" alt="thumb">
+                                            </a>
+                                            <div class="text-box">
+                                                <a href="javascript:void(0)" class="nickname">굿팀장</a>
+                                                <div>
+                                                    <span class="date">2020.12.30</span>
+                                                    <span class="star">
+                                                        <img src="../img/icon_star03.png" alt="">
+                                                        <span class="aver">5.0</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- con-top -->
+                                        <div class="con-bottom">
+                                            <p>매월 구구박스가 오는 날을 기다리고 있습니다.
+                                                <br>정말 좋은 서비스 같아요!</p>
+                                            <div class="reply-box">
+                                                <img src="../img/m-md-profile.png" alt="reply-img">
+                                                <div class="reply-con">
+                                                    <p>안녕하세요 훈훈님 :) 만족하셨다니 정말 다행입니다. 조금 더 노력해서 고객님 성원에 보답하는 구구가 될 수 있도록 노력하겠습니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="content">
+                                        <div class="con-top">
+                                            <a href="javacript:void(0)" class="img-box">
+                                                <img src="../img/m-profile-no-img.png" alt="thumb">
+                                            </a>
+                                            <div class="text-box">
+                                                <a href="javascript:void(0)" class="nickname">굿팀장</a>
+                                                <div>
+                                                    <span class="date">2020.12.30</span>
+                                                    <span class="star">
+                                                        <img src="../img/icon_star03.png" alt="">
+                                                        <span class="aver">5.0</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- con-top -->
+                                        <div class="con-bottom">
+                                            <ul class="review-img-box">
+                                                <li><img src="../img/review-pic01.png" alt=""></li>
+                                                <li><img src="../img/review-pic01.png" alt=""></li>
+                                                <li><img src="../img/review-pic01.png" alt=""></li>
+                                                <li><img src="../img/review-pic01.png" alt=""></li>
+                                                <li><img src="../img/review-pic01.png" alt=""></li>
+                                            </ul>
+                                            <p>매월 구구박스가 오는 날을 기다리고 있습니다.
+                                                <br>정말 좋은 서비스 같아요!</p>
+                                            <div class="reply-box">
+                                                <img src="../img/m-md-profile.png" alt="reply-img">
+                                                <div class="reply-con">
+                                                    <p>안녕하세요 훈훈님 :) 만족하셨다니 정말 다행입니다. 조금 더 노력해서 고객님 성원에 보답하는 구구가 될 수 있도록 노력하겠습니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- review-box -->
+                            <a href="javascript:void(0)" class="more">리뷰 더보기</a>
+                        </div>
+                    </div>
+                    <div class="goods-qna goods-sec">
+                        <div class="container">
+                            <h4>문의하기</h4>
+                            <ul class="qna-list">
+                                <li>
+                                    <div class="top">
+                                        <h5>제품교환은 어떻게 하나요?</h5><img src="../img/m-secret.png" alt="비밀글">
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="name">곤**</span>
+                                        <span class="date">2021-01-04</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <h5>제품교환은 어떻게 하나요?</h5><img src="../img/m-secret.png" alt="비밀글">
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="name">곤**</span>
+                                        <span class="date">2021-01-04</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <h5>제품교환은 어떻게 하나요?</h5><img src="../img/m-secret.png" alt="비밀글">
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="name">곤**</span>
+                                        <span class="date">2021-01-04</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <h5>제품교환은 어떻게 하나요?</h5><img src="../img/m-secret.png" alt="비밀글">
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="name">곤**</span>
+                                        <span class="date">2021-01-04</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="pager-box">
+                                <a href="javascript:void(0)" class="prev"><img src="../img/m-pager-prev.png" alt="prev"><img src="../img/m-pager-prev-on.png" alt="prev-on" class="on"></a>
+                                <div class="pager">
+                                    <span class="now">1</span>
+                                    /
+                                    <span class="total">10</span>
+                                </div>
+                                <a href="javascript:void(0)" class="next on"><img src="../img/m-pager-next.png" alt="next"><img src="../img/m-pager-next-on.png" alt="next-on" class="on"></a>
+                            </div>
+                            <div class="btn-box">
+                                <a href="javascript:void(0)" class="btn01">문의하기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-wrap">            
+        <!--/header.html-->
+    </div>
+</body>
+</html>
