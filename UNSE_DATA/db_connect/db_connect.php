@@ -1,8 +1,8 @@
 <?
-$dbHost = '211.47.74.10';
-$dbUser = 'kokzipgaedev';
-$dbPass = 'a123456789!';
-$dbName = 'dbkokzipgaedev';
+$dbHost = '';
+$dbUser = '';
+$dbPass = '';
+$dbName = '';
 
 
 /// db 관련 함수 -- 시작
